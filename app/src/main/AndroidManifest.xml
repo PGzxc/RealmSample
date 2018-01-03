@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.realmsample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:name=".MyApplication"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.DogListActivity" />
+        <activity android:name=".activity.QueryActivity" />
+        <activity android:name=".activity.AllDogActivity" />
+        <activity android:name=".activity.ConditionQueryActivity" />
+        <activity android:name=".activity.UpdateActivity" />
+        <activity android:name=".activity.OtherQueryActivity" />
+        <activity android:name=".async.AsyncActivity" />
+        <activity android:name=".async.AddDeleteActivity" />
+        <activity android:name=".async.AsyncQueryActivity" />
+        <activity android:name=".async.UpdateCatActivity"></activity>
+    </application>
+
+</manifest>
